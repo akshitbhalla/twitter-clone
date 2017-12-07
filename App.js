@@ -1,11 +1,8 @@
 import Expo from "expo";
-import React, { Component } from 'react';
-import { Container, Header, Title, Content, Footer, FooterTab, Button, Left, Right, Body, Icon, Text } from 'native-base';
-import {
-  StackNavigator,
-} from 'react-navigation';
+import React from "react";
+import App from "./js/App";
 
-export default class App extends Component {
+export default class App1 extends React.Component {
   constructor() {
     super();
     this.state = {
