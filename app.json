@@ -1,5 +1,20 @@
 {
   "expo": {
-    "sdkVersion": "23.0.0"
+    "name": "Twitter",
+    "slug": "twitter-clone",
+    "sdkVersion": "23.0.0",
+    "icon": "./images/Twitter_Logo_Blue.png",
+    "githubUrl": "https://github.com/akshitbhalla/twitter-clone",
+    "loading": {
+      "icon": "./images/Twitter_Logo_WhiteOnImage.png",
+      "hideExponentText": false,
+      "backgroundColor": "#1da1f2"
+    },
+    "orientation": "portrait",
+    "primaryColor": "#1da1f2"
+  },
+  "androidStatusBar": {
+    "barStyle": "light-content",
+    "backgroundColor": "#1da1f2"
   }
 }
