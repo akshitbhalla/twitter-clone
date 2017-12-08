@@ -82,7 +82,7 @@ This will start the process of "ejecting" from Create React Native App's build s
 
 ## Support and Contact
 
-If you're having issues with this app or would like to request new features, reach out to me at [@akshitbhalla13](https://twitter.com/akshitbhalla13) on Twitter (the real one).
+If you're having issues with this app or would like to request new features, reach out to me at [@akshitbhalla13](https://goo.gl/kMku1B) on Twitter (the real one).
 
 ## Philosophy
 
