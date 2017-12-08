@@ -2,7 +2,7 @@
 
 ![Twitter](https://www.shareicon.net/data/256x256/2017/02/24/879396_logo_512x512.png)
 
-Barebones react-native project to construct the Twitter UI.
+This is a react-native project to construct the Twitter UI.
 
 Created using CRNA (create-react-native-app).
 
@@ -10,7 +10,7 @@ Created using CRNA (create-react-native-app).
 
 ## Quick Overview
 
-Make sure you have Node v6 or later installed. A package manager such as Yarn or NPM (v5 not supported) is required. I recommend Yarn due to its speed and absence of current release issues as with NPM. No Xcode or Android Studio installation is required.
+Make sure you have Node v6 or later installed. I strongly recommend using Yarn, or npm v4. Create React Native App does not currently work with npm v5 due to bugs in npm ([you can track the issue here](https://github.com/react-community/create-react-native-app/issues/233#issuecomment-305638103)). No Xcode or Android Studio installation is required.
 
 ```sh
 $ cd twitter-clone/
@@ -21,7 +21,7 @@ $ yarn install  # installs all dependencies as specified in package.json
 $ yarn start
 ```
 
-Install the [Expo](https://expo.io) app on your iOS or Android phone, and use the QR code in the terminal to open your app. Find the QR scanner on the Projects tab of the app.
+Install the [Expo](https://expo.io) app on your iOS or Android phone, and use the QR code in the terminal to open the app. Find the QR scanner in the Projects tab of the app.
 
 ## Sections
 
@@ -31,21 +31,8 @@ Install the [Expo](https://expo.io) app on your iOS or Android phone, and use th
 
 ## Getting Started
 
-### Installation
-
-Install it once globally:
-
-```sh
-$ npm install -g create-react-native-app
-  # or
-$ yarn global add create-react-native-app
-```
-
-You'll need to have Node v6 or later on your machine. We strongly recommend using npm v3, v4, or a recent version of Yarn. Create React Native App does not currently work with npm v5 due to bugs in npm ([you can track the issue here](https://github.com/react-community/create-react-native-app/issues/233#issuecomment-305638103)).
 
 ### Install Dependencies 
-
-run:
 
 ```sh
 $ npm install
@@ -53,7 +40,21 @@ $ npm install
 $ yarn install
 ```
 
-This will install all dependencies as specified in `package.json`
+This will install all dependencies as specified in `package.json`:
+```
+"dependencies": {
+    "@expo/vector-icons": "^6.2.1",
+    "expo": "^23.0.4",
+    "native-base": "^2.3.4",
+    "react": "16.0.0",
+    "react-native": "0.50.3",
+    "react-navigation": "^1.0.0-beta.21"
+```
+[Create-React-Native-App](https://facebook.github.io/react-native/docs/getting-started.html)
+
+[NativeBase](https://docs.nativebase.io/) 
+
+[ReactNavigation](https://reactnavigation.org/)
 
 If you're familiar with React Native already, you won't find any `ios` or `android` directories in this project, just JavaScript. Once this installation is done, there are some commands you can run in the project directory:
 
@@ -86,4 +87,4 @@ This will start the process of "ejecting" from Create React Native App's build s
 
 ## Support and Contact
 
-If you're having issues with this app or would like to request new features, open up an issue at [twitter-clone](https://github.com/akshitbhalla/twitter-clone)
+If you're having issues with this app or would like to request new features, reach out to me at [@akshitbhalla13](https://twitter.com/akshitbhalla13) on Twitter (the real one).
