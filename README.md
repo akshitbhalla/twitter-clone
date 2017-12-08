@@ -1,5 +1,6 @@
 # twitter-clone
-Barebones react-native project to construct the Twitter UI
+Barebones react-native project to construct the Twitter UI.
+Created using CRNA (create-react-native-app)
 
 <!-- 
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
