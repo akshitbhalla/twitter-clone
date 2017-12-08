@@ -2,10 +2,15 @@
 
 ![Twitter](https://www.shareicon.net/data/256x256/2017/02/24/879396_logo_512x512.png)
 
+
+
 This is a react-native project to construct the Twitter UI.
 
 Created using CRNA (create-react-native-app).
 
+Video:
+
+[![Video](https://img.youtube.com/vi/YBD0QiRYoMw/0.jpg)](https://goo.gl/zj4Wy5)
 
 
 ## Quick Overview
