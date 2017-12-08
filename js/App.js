@@ -5,6 +5,7 @@ import { DrawerNavigator } from "react-navigation";
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
 import Profile from "./screens/Profile";
+import Timeline from "./screens/Timeline";
 // import test from "./screens/test"
 
 
@@ -23,19 +24,12 @@ const RootDrawer = DrawerNavigator({
     //     ),
     //   },
     // },
-    Profile: {
-      screen: Profile,
-      navigationOptions: {
-        drawerLabel: 'Profile',
-        drawerIcon: ({ tintColor, focused }) => (
-          <Ionicons
-            name={focused ? 'ios-person' : 'ios-person-outline'}
-            size={26}
-            style={{ color: tintColor }}
-          />
-        ),
-      },
-    },
-  });
+    Timeline: { screen: Timeline }
+  },
+  {
+    initialRouteName: "Timeline",
+    contentComponent: props => <Profile {...props} />
+  }
+);
   
 export default RootDrawer;
