@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import { Image, View } from "react-native";
 
 import {
-	Content,
+    Content,
+    Footer,
 	Text,
     List,
     Thumbnail,
@@ -28,6 +29,7 @@ class Profile extends Component {
 
     render() {
         return(
+            <View style={{ flex: 1}}>
             <Container>
                 <Content bounces={false} style={{ flex: 1, backgroundColor: "#fff", top: -1 }}>
                     <View style={{ flex: 1, alignItems: "flex-start", paddingLeft: 20, paddingTop: 40 }}>
@@ -61,32 +63,17 @@ class Profile extends Component {
                                 <Text>Help Centre</Text>
                             </ListItem>
                     </View>
-					{/* <List
-						dataArray={datas}
-						renderRow={data =>
-							<ListItem button noBorder onPress={() => this.props.navigation.navigate(data.route)}>
-								<Left>
-									<Icon active name={data.icon} style={{ color: "#777", fontSize: 26, width: 30 }} />
-									<Text style={styles.text}>
-										{data.name}
-									</Text>
-								</Left>
-								{data.types &&
-									<Right style={{ flex: 1 }}>
-										<Badge
-											style={{
-												borderRadius: 3,
-												height: 25,
-												width: 72,
-												backgroundColor: data.bg,
-											}}
-										>
-											<Text style={styles.badgeText}>{`${data.types} Types`}</Text>
-										</Badge>
-									</Right>}
-							</ListItem>} */}
 				</Content>
             </Container>
+            <Footer>
+                <Left>
+                    <Icon name="moon" style={{ paddingLeft: 20, color: "#1da1f2" }} />
+                </Left>
+                <Right>
+                    <Icon name="barcode" style={{ paddingRight: 20, color: "#1da1f2" }} />
+                </Right>
+            </Footer>
+            </View>
         );
     }
 }

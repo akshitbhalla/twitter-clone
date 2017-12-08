@@ -1,8 +1,10 @@
 import React, { Component } from "react";
+import { View } from "react-native";
 
 import {
   Container,
   Header,
+  Footer,
   Title,
   Button,
   Icon,
@@ -25,11 +27,12 @@ class Timeline extends Component {
 
   render() {
     return (
+      <View style={{ flex: 1}}>
       <Container>
         <Header hasTabs>
             <Left>
                 <Button transparent onPress={() => this.props.navigation.goBack()}>
-                    <Thumbnail small source={ProfileImage} style={{ paddingTop: 20 }} />
+                    <Thumbnail small source={ProfileImage} style={{ marginTop: 10, paddingVertical: 10 }} />
                 </Button>
             </Left>
             <Body>
@@ -50,6 +53,15 @@ class Timeline extends Component {
           </Tab>  
         </Tabs>
       </Container>
+      <Footer>
+      <Left>
+            <Text style={{fontWeight: 'bold', paddingLeft: 15, color: "#1da1f2" }}>All    <Text style={{ color: "#000" }}> Mentions</Text></Text>
+        </Left>
+      <Right>
+          <Icon name="settings" style={{ paddingRight: 15, color: "#1da1f2" }} />
+      </Right>
+      </Footer>
+      </View>
     );
   }
 }
