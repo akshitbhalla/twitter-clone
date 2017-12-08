@@ -1,10 +1,10 @@
 # twitter-clone
 
-(https://upload.wikimedia.org/wikipedia/en/9/9f/Twitter_bird_logo_2012.svg)
+![Twitter](https://www.shareicon.net/data/256x256/2017/02/24/879396_logo_512x512.png)
 
 Barebones react-native project to construct the Twitter UI.
 
-Created using CRNA (create-react-native-app)
+Created using CRNA (create-react-native-app).
 
 <!-- 
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
