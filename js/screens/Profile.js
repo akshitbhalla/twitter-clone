@@ -11,11 +11,8 @@ import {
 	Container,
 	Left,
 	Right,
-	Badge,
+	Body,
 	Button,
-	StyleProvider,
-	getTheme,
-	variables,
 } from "native-base";
 
 const ProfileImage = require("../../images/Akshit@Google.jpg");
@@ -33,12 +30,36 @@ class Profile extends Component {
         return(
             <Container>
                 <Content bounces={false} style={{ flex: 1, backgroundColor: "#fff", top: -1 }}>
-                    <View style={{ flex: 1, alignItems: "flex-start", paddingLeft: 20, paddingTop: 30 }}>
+                    <View style={{ flex: 1, alignItems: "flex-start", paddingLeft: 20, paddingTop: 40 }}>
                         <Thumbnail source={ProfileImage} style={{ marginBottom: 10 }} />
                         <Text style={{ marginBottom: 10, fontWeight: 'bold', paddingTop: 5 }}>Akshit Bhalla</Text>
-                        <Text style={{ marginBottom: 10, opacity: 0.75 }}>@akshitbhalla13</Text>
-                        <Text style={{ fontWeight: 'bold' }}>271 <Text style={{ opacity: 0.75, fontWeight: 'normal' }}>Following <Text style={{ fontWeight: 'bold', opacity: 1 }}>198 <Text style={{ opacity: 0.75, fontWeight: 'normal' }}>Followers </Text> </Text> </Text> </Text>
-                        
+                        <Text style={{ opacity: 0.75 }}>@akshitbhalla13</Text>
+                    </View>
+                    <View style={{ flex: 1, alignItems: "flex-start", paddingLeft: 5, paddingTop: 10 }}>
+                        <ListItem>
+                        <Text style={{ fontWeight: 'bold' }}>271 <Text style={{ opacity: 0.75, fontWeight: 'normal' }}>Following  <Text style={{ fontWeight: 'bold', opacity: 1 }}>198 <Text style={{ opacity: 0.75, fontWeight: 'normal' }}>Followers</Text> </Text> </Text> </Text>
+                        </ListItem>
+                    
+                        <List>
+                            <ListItem>
+                                <Icon name="person" /><Text>   Profile</Text>
+                            </ListItem>
+                            <ListItem>
+                                <Icon name="list-box" /><Text>   Lists</Text>
+                            </ListItem>
+                            <ListItem>
+                                <Icon name="flash" /><Text>   Moments</Text>
+                            </ListItem>
+                            <ListItem>
+                                <Icon name="browsers" /><Text>   Highlights</Text>
+                            </ListItem>
+                        </List>
+                            <ListItem>
+                                <Text>Settings and Privacy</Text>
+                            </ListItem>
+                            <ListItem>
+                                <Text>Help Centre</Text>
+                            </ListItem>
                     </View>
 					{/* <List
 						dataArray={datas}
