@@ -1,6 +1,7 @@
 # twitter-clone
 Barebones react-native project to construct the Twitter UI
 
+<!-- 
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
 Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
@@ -154,7 +155,8 @@ Create React Native App does a lot of work to make app setup and development sim
 Expo provides free hosting for the JS-only apps created by CRNA, allowing you to share your app through the Expo client app. This requires registration for an Expo account.
 
 Install the `exp` command-line tool, and run the publish command:
-
+-->
+<!--
 ```
 $ npm i -g exp
 $ exp publish
