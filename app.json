@@ -6,7 +6,7 @@
     "icon": "./images/Twitter_Logo_Blue.png",
     "githubUrl": "https://github.com/akshitbhalla/twitter-clone",
     "loading": {
-      "icon": "./images/Twitter_Logo_WhiteOnImage.png",
+      "icon": "./images/Twitter_Logo_WhiteOnBlue.png",
       "hideExponentText": false,
       "backgroundColor": "#1da1f2"
     },
