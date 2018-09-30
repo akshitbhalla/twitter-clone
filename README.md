@@ -31,8 +31,8 @@ Install the [Expo](https://expo.io) app on your iOS or Android phone, and use th
 ## Sections
 
 * [Getting Started](#getting-started)
-* [Support and Contact](#support-and-contact)
 * [Philosophy](#philosophy)
+* [Support and Contact](#support-and-contact)
 
 ## Getting Started
 
@@ -85,13 +85,14 @@ This will start the process of "ejecting" from Create React Native App's build s
 **Warning:** Running eject is a **permanent** action. Please use a version control system, such as git, so you can revert back if necessary. An ejected app will require you to have an [Xcode and/or Android Studio environment](https://facebook.github.io/react-native/docs/getting-started.html) set up.
 
 
-## Support and Contact
-
-If you're having issues with this app or would like to request new features, reach out to me at [@akshitbhalla13](https://goo.gl/kMku1B) on Twitter (the real one).
-
 ## Philosophy
 
 * **Minimal "Time to Hello World"**: Create React Native App should reduce the setup time it takes to try building a mobile app to the absolute minimum, ideally on par with React web development (especially as seen with [Create React App](https://github.com/facebookincubator/create-react-app)).
 * **Develop on Your Device**: It should be easy to develop on a physical device when you want to test how your app feels and responds to inputs.
 * **One Build Tool**: If you just want to get started with React Native, you shouldn't need to install Xcode, Android Studio, NDKs, or mess with environment variables.
 * **No Lock-In**: You can always "eject" to your own build setup if you need to write custom native code or modify how your app is built.
+
+
+## Support and Contact
+
+If you're having issues with this app or would like to request new features, reach out to me at [@akshitbhalla13](https://goo.gl/kMku1B) on Twitter.
